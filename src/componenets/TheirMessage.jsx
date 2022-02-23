@@ -25,7 +25,7 @@ export default function TheirMessage({ lastMessage, message }) {
           style={{
             marginLeft: isFirstMsgByUser ? "4px" : "48px",
             float: "left",
-            backgroundColor: "#CABCDC",
+            backgroundColor: "#70a3ed",
           }}
         >
           {message.text}

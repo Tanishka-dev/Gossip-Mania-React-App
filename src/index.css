@@ -15,8 +15,8 @@
 }
 
 .ce-active-chat-card {
-  background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
+  background-color: #98bcf0 !important;
+  border: 4px solid #98bcf0 !important;
   border-radius: 0px !important;
 }
 
@@ -30,12 +30,12 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid #083d8a !important;
 }
 
 .ce-primary-button {
   border-radius: 6px !important;
-  background-color: #7554a0 !important;
+  background-color: #70a3ed !important;
   position: relative;
   bottom: 1px;
 }
@@ -51,12 +51,12 @@
 
 .ce-autocomplete-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid #083d8a !important;
 }
 
 .ce-autocomplete-options {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid #083d8a !important;
   background-color: white !important;
 }
 
@@ -84,13 +84,13 @@
 }
 
 .chat-title {
-  color: #7554a0;
+  color: #70a3ed;
   font-weight: 800;
   font-size: 24px;
 }
 
 .chat-subtitle {
-  color: #7554a0;
+  color: #70a3ed;
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
@@ -164,7 +164,7 @@
 .message-form {
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid #3b2a50;
+  border: 1px solid #083d8a;
   background-color: white;
 }
 
@@ -215,34 +215,31 @@
 }
 
 .wrapper {
-  height: 100vh;
+  height: 85vh;
   width: 100%;
-  background: rgb(117, 84, 160);
-  background: linear-gradient(
-    90deg,
-    rgba(117, 84, 160, 1) 7%,
-    rgba(117, 84, 160, 1) 17%,
-    rgba(106, 95, 168, 1) 29%,
-    rgba(99, 103, 174, 1) 44%,
-    rgba(87, 116, 184, 1) 66%,
-    rgba(70, 135, 198, 1) 83%,
-    rgba(44, 163, 219, 1) 96%,
-    rgba(22, 188, 237, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: white;
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
+  gap: 5rem;
+  overflow: hidden;
 }
 
+.tagline {
+  margin: 0.5rem;
+  color: #86b2f2;
+  font-size: 3em;
+}
 .input {
   color: #333;
   font-size: 1.2rem;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
-  border: none;
+  border-style: ridge;
+  border-color: #86b2f2;
   width: 90%;
   display: block;
   border-bottom: 0.3rem solid transparent;
@@ -251,32 +248,37 @@
   margin-bottom: 25px;
 }
 
+.illustration {
+  height: 75%;
+  width: 50%;
+}
+
 .form {
   width: 400px;
 }
 
 .title {
   text-align: center;
-  color: white;
+  color: #86b2f2;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;
+  font-size: 2.9em;
 }
 
 .button {
   border-radius: 4px;
   border: none;
-  background-color: white;
+  background-color: #86b2f2;
   color: black;
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
-  padding: 20px;
-  width: 200px;
+  padding: 15px;
+  width: 100px;
   transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
-  width: 90%;
+  width: 80%;
 }
 .button span {
   cursor: pointer;
@@ -301,7 +303,7 @@
 }
 
 .error {
-  color: white;
+  color: #86b2f2;
   text-align: center;
   margin-top: 20px;
 }

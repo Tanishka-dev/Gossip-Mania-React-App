@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import illustration from "./illustration1.gif";
 
 export default function LoginForm() {
   const [username, setUsername] = React.useState("");
@@ -30,34 +31,38 @@ export default function LoginForm() {
   }
 
   return (
-    <div className="wrapper">
-      <div className="form">
-        <h1 className="title">Gossip-Mania</h1>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            className="input"
-            placeholder="Username"
-            required
-          />
-          <input
-            value={password}
-            type="password"
-            onChange={(event) => setPassword(event.target.value)}
-            placeholder="Password"
-            className="input"
-            required
-          />
-          <div align="center">
-            <button className="button" type="submit">
-              <span>Login</span>
-            </button>
-          </div>
-          <h3 className="error">{error}</h3>
-        </form>
+    <main>
+      <h1 className="tagline">Converse, Confer & Create</h1>
+      <div className="wrapper">
+        <img src={illustration} className="illustration"></img>
+        <div className="form">
+          <h1 className="title">Gossip-Mania</h1>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              className="input"
+              placeholder="Username"
+              required
+            />
+            <input
+              value={password}
+              type="password"
+              onChange={(event) => setPassword(event.target.value)}
+              placeholder="Password"
+              className="input"
+              required
+            />
+            <div align="center">
+              <button className="button" type="submit">
+                <span>Login</span>
+              </button>
+            </div>
+            <h3 className="error">{error}</h3>
+          </form>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
