@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Gossip-Mania-React-App/static/css/main.511580cd.css",
+    "main.js": "/Gossip-Mania-React-App/static/js/main.6dcc3092.js",
+    "static/media/illustration1.gif": "/Gossip-Mania-React-App/static/media/illustration1.9eef661846b27707452e.gif",
+    "index.html": "/Gossip-Mania-React-App/index.html",
+    "main.511580cd.css.map": "/Gossip-Mania-React-App/static/css/main.511580cd.css.map",
+    "main.6dcc3092.js.map": "/Gossip-Mania-React-App/static/js/main.6dcc3092.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511580cd.css",
+    "static/js/main.6dcc3092.js"
+  ]
+}
